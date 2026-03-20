@@ -8,7 +8,7 @@ import (
 	"strings"
 )
 
-// 物理状態を構造体で管理（設計スキルのアピール）
+// 物理状態を構造体で管理
 type Lander struct {
 	Altitude float64
 	Velocity float64
